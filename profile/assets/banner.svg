@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Raw Socket Labs</title>
+  <desc id="desc">Packets, signals, systems. A mint signal trace crosses a dark blue field of packet frames.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1320"/><stop offset="1" stop-color="#142a38"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#294254" stroke-width="1" opacity=".45"/></pattern>
+    <linearGradient id="trace"><stop stop-color="#53e6bb" stop-opacity=".15"/><stop offset=".5" stop-color="#53e6bb"/><stop offset="1" stop-color="#62b8ff"/></linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="16" fill="url(#bg)"/>
+  <rect x="560" width="640" height="280" fill="url(#grid)"/>
+  <path d="M650 140H724L742 112L760 168L778 84L796 196L814 112L832 168L850 140H914L932 120L950 160L968 140H1160" stroke="url(#trace)" stroke-width="3" fill="none" stroke-linejoin="round"/>
+  <g fill="#122938" stroke="#426477" stroke-width="1.5">
+    <rect x="700" y="48" width="92" height="22" rx="3"/><rect x="802" y="48" width="42" height="22" rx="3"/><rect x="854" y="48" width="158" height="22" rx="3"/>
+    <rect x="800" y="220" width="58" height="16" rx="3"/><rect x="868" y="220" width="118" height="16" rx="3"/><rect x="996" y="220" width="74" height="16" rx="3"/>
+  </g>
+  <circle cx="650" cy="140" r="4" fill="#53e6bb"/><circle cx="1160" cy="140" r="4" fill="#62b8ff"/>
+  <rect x="48" y="52" width="34" height="4" rx="2" fill="#53e6bb"/>
+  <text x="48" y="112" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="1">RAW SOCKET LABS</text>
+  <text x="50" y="160" fill="#93b2c7" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="17" letter-spacing="3">PACKETS / SIGNALS / SYSTEMS</text>
+  <text x="50" y="226" fill="#53e6bb" font-family="ui-monospace,SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="1">FROM THE BITS UP.</text>
+</svg>
