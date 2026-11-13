@@ -3,18 +3,25 @@
 We build tools for working closer to the wire: binary codecs, network protocols,
 radio hardware, and hardware-backed identity.
 
-### Explore the lab
+### Systems and protocol engineering
 
 | Project | What it does | Start here |
 | :--- | :--- | :--- |
 | **[rsl](https://github.com/RawSocketLabs/rsl)** | A Rust monorepo for codecs, protocols, cryptography, device drivers, and hardware bindings. Individual crates, developed together. | [Workspace guide](https://github.com/RawSocketLabs/rsl#readme) |
+
+#### Inside `rsl`
+
+| Area | Explore |
+| :--- | :--- |
+| Binary encoding | [bitsandbytes](https://github.com/RawSocketLabs/rsl/tree/main/codecs/bitsandbytes) |
+| Network protocols | [Protocol implementations](https://github.com/RawSocketLabs/rsl/tree/main/protocols) |
+| Hardware access | [Device drivers](https://github.com/RawSocketLabs/rsl/tree/main/devices) · [Native bindings](https://github.com/RawSocketLabs/rsl/tree/main/bindings) |
+
+### Identity and trust
+
+| Project | What it does | Start here |
+| :--- | :--- | :--- |
 | **[ykt](https://github.com/RawSocketLabs/ykt)** | A YubiKey-backed offline certificate authority for short-lived SSH and mTLS certificates. | [Quickstart](https://github.com/RawSocketLabs/ykt#quickstart) · [Releases](https://github.com/RawSocketLabs/ykt/releases) |
-
-### Inside `rsl`
-
-- **Encode the bits** → [bitsandbytes](https://github.com/RawSocketLabs/rsl/tree/main/codecs/bitsandbytes)
-- **Speak the protocols** → [network stack](https://github.com/RawSocketLabs/rsl/tree/main/protocols)
-- **Reach the hardware** → [device drivers](https://github.com/RawSocketLabs/rsl/tree/main/devices) · [native bindings](https://github.com/RawSocketLabs/rsl/tree/main/bindings)
 
 ### Work with the code
 
